@@ -173,6 +173,10 @@ Este projeto foi desenvolvido para estudo de:
 - Validação de documentos brasileiros
 
 ---
+# Referencia do Calculo
+```
+https://mazzarello.com.br/noticias/entendendo-a-matematica-por-tras-do-cpf
+```
 
 # Licença
 
