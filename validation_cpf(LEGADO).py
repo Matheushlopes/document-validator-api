@@ -1,3 +1,8 @@
+""""
+PRIMEIRA VERSÃO DO VALIDATOR CPF
+APÓS CRIADO, FUI REFATORANDO E APLICANDO NOVOS CONCEITOS APRENDIDOS
+COMO reduce(lambda a, b: a + b, resultados), filte,map.
+"""
 from functools import reduce
 
 cpf = "09584479938"
