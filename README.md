@@ -165,6 +165,7 @@ Este projeto foi desenvolvido para estudo de:
 
 - Desenvolvimento de APIs REST
 - Organização em camadas
+- Aplicar conhecimento adiquirido
 - Flask
 - Blueprints
 - Estruturação de projetos Python
