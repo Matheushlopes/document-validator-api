@@ -39,7 +39,11 @@ def validar_cpf(cpf):
 
     cpf_calculado = "".join(nove_digitos)
 
-    return ({
-        "cpf":cpf_calculado,
-        "valido":cpf == cpf_calculado,
-    })
+    if cpf == cpf_calculado:
+         return ({
+            "cpf":cpf_calculado,
+            "valido":cpf == cpf_calculado,
+            "estado":get_estados(cpf_calculado[8])
+         })
+    else:
+        return ({"valido":cpf == cpf_calculado})
